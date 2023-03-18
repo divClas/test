@@ -1,0 +1,113 @@
+<?php
+session_start();
+if (!$_SESSION['user']) {
+    header('Location: /');
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <div class="menu-inner">
+        <div class="logo-menu">
+          <img class="logo-main" src="" alt="" />
+          <div class="txt-menu">
+            <nav class="maintxt">
+              <li><a href="">Чем мы можем помочь?</a></li>
+              <li><a href="">Услуги</a></li>
+              <li><a href="">Отзывы</a></li>
+              <div class="casele">
+                <li><a href="">Авторизация</a></li>
+              </div>
+              <div class="brif">
+                <li><a href="">Профиль</a></li>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="intro">
+      <div class="intro-iner">
+        <div class="txt-intro">
+          <h1>Удаленная команда специалистов по маркетингу</h1>
+          <p>
+            Предоставим специалистов по инфлюенс-маркетингу, анализу рынка и
+            лидогенерации, которые отвечают за результат
+          </p>
+          <div class="buttn">
+            <div class="brif1">
+              <li><a href="">Заполните бриф</a></li>
+            </div>
+            <div class="consule">
+              <li><a href="">Забронировать консультацию</a></li>
+            </div>
+          </div>
+        </div>
+
+        <div class="introhuman">
+
+          <div class="rectangle">
+            <img src="/images/Group1.svg" alt="">
+          </div>
+          <div class="rectangle">
+            <img src="/images/Group2.svg" alt="">
+          </div>
+
+          <div class="rectangle">
+            <img src="/images/Group3.svg" alt="">
+          </div>
+
+          <div class="rectangle">
+            <img src="/images/Group4.svg" alt="">
+          </div>
+
+          <div class="rectangle">
+            <img src="/images/Group5.svg" alt="">
+          </div>
+          <div class="rectangle">
+            <img src="/images/Group6.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="options">
+      <div class="options-iner">
+        <div class="opiati">
+          <img src="" alt="" />
+          <p>Начнем работу в течении 2 часов</p>
+        </div>
+        <div class="opiati">
+          <img src="" alt="" />
+          <p>Возьмем оплаты только за часы</p>
+        </div>
+        <div class="opiati">
+          <img src="" alt="" />
+          <p>Подпишим NDA</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
